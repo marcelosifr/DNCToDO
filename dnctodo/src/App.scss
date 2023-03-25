@@ -1,0 +1,36 @@
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+        header {
+            width: 100vw;
+            height: 93px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #2d2d2d;
+            color: white;
+    
+    }
+    
+        .listContainer {
+            width: 100vw;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+    
+                .list{
+                    width: 292px;
+                    min-height: 164px;
+                    display: flex;
+                    flex-direction: column;
+    
+                }
+        }
+    }
+    
+.addCard{
+    background-color: #d9d9d9;
+}
